@@ -28,7 +28,7 @@ const projects = [
     isBestSeller: false,
     driveFile: "https://drive.google.com/file/d/example2/view?usp=sharing",
     thumbnail:
-      "https://res.cloudinary.com/dqhk94co9/image/upload/v1750754868/Screenshot_49_pa6l7i.png",
+      "https://res.cloudinary.com/dqhk94co9/image/upload/v1747639817/veereshaha.ccbp.tech__Nest_Hub_Max_h8o4oy.png",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const projects = [
     isBestSeller: false,
     driveFile: "https://drive.google.com/file/d/example4/view?usp=sharing",
     thumbnail:
-      "https://res.cloudinary.com/dqhk94co9/image/upload/v1750754868/Screenshot_49_pa6l7i.png",
+      "https://sangvish.com/wp-content/uploads/2021/10/Buy2Market-amazon-clone-script.png",
   },
   {
     id: 5,
@@ -66,7 +66,7 @@ const projects = [
     isBestSeller: false,
     driveFile: "https://drive.google.com/file/d/example5/view?usp=sharing",
     thumbnail:
-      "https://res.cloudinary.com/dqhk94co9/image/upload/v1750754868/Screenshot_49_pa6l7i.png",
+      "https://res.cloudinary.com/dqhk94co9/image/upload/v1750754868/Screenshot_2025-06-07_114054_d0skli.png",
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ const projects = [
     isBestSeller: false,
     driveFile: "https://drive.google.com/file/d/example6/view?usp=sharing",
     thumbnail:
-      "https://res.cloudinary.com/dqhk94co9/image/upload/v1750754868/Screenshot_49_pa6l7i.png",
+      "https://www.vhv.rs/dpng/d/496-4968660_do-list-app-template-hd-png-download.png",
   },
 ];
 
@@ -97,7 +97,6 @@ const ProjectsSection = () => {
             templates and tools designed to accelerate your development process.
           </p>
         </div>
-
         {/* Stats Section */}
         <div className="stats-grid">
           <div className="stat-card">
@@ -124,7 +123,6 @@ const ProjectsSection = () => {
             <div className="stat-label">Open Source</div>
           </div>
         </div>
-
         {/* Projects Grid */}
         <div className="projects-grid">
           {projects.map((project, index) => (
@@ -137,8 +135,7 @@ const ProjectsSection = () => {
             </div>
           ))}
         </div>
-
-        {/* Call to Action */}
+        {/* Call to Action
         <div className="cta-section">
           <div className="cta-card">
             <h3 className="cta-title">Ready to Build Something Amazing?</h3>
@@ -148,7 +145,7 @@ const ProjectsSection = () => {
             </p>
             <button className="cta-button">Browse All Projects</button>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
